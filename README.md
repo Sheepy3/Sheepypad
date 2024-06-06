@@ -6,12 +6,12 @@ open source Macropad for art, gaming... whatever you want, man.
 this is a repo containing a fairly rudimentary macropad schematic and accompanying circuitpython code. 
 
 the supplied macropad contains:
-1x mode switching tactile switch
-2x rotary encoders
-1x 5-way switch
-9x mechanical keyswitches
-1x 128x32 SSD1306 OLED
-1x Rasberry Pi Pico (or other pin-out compatible rp2040 board) 
+- 1x mode switching tactile switch
+- 2x rotary encoders
+- 1x 5-way switch
+- 9x mechanical keyswitches
+- 1x 128x32 SSD1306 OLED
+- 1x Rasberry Pi Pico (or other pin-out compatible rp2040 board) 
 
 I have written firmware to make it fairly simple to create and modify profiles for this pad. 
 I intend to use it with art programs and flight sim.
