@@ -4001,7 +4001,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm"
+		(property "Footprint" "Macropad_Library:RotaryEncoder"
 			(at 191.77 46.736 0)
 			(effects
 				(font
@@ -4145,7 +4145,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm"
+		(property "Footprint" "Macropad_Library:RotaryEncoder"
 			(at 198.12 67.056 0)
 			(effects
 				(font
@@ -4339,7 +4339,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "8f61da68-8f86-4441-862e-6a65fcd43d13")
 		(property "Reference" "J1"
 			(at 201.295 93.98 0)
@@ -4358,12 +4357,11 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
-			(at 201.93 83.82 0)
+			(at 235.458 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "~"
@@ -4981,7 +4979,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:RPi_Pico_SMD_TH"
+		(property "Footprint" "Macropad_Library:RPi_Pico_SMD_TH"
 			(at 153.67 73.66 90)
 			(effects
 				(font
