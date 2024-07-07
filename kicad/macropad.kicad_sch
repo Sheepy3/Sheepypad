@@ -3058,7 +3058,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "Macropad_Library:SW_Cherry_MX_1.00u_PCB"
 			(at 99.06 85.725 0)
 			(effects
 				(font
@@ -3327,7 +3327,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "Macropad_Library:SW_Cherry_MX_1.00u_PCB"
 			(at 104.14 121.285 0)
 			(effects
 				(font
@@ -3462,7 +3462,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "Macropad_Library:SW_Cherry_MX_1.00u_PCB"
 			(at 104.14 132.715 0)
 			(effects
 				(font
@@ -3530,7 +3530,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "Macropad_Library:SW_Cherry_MX_1.00u_PCB"
 			(at 110.49 60.325 0)
 			(effects
 				(font
@@ -3732,7 +3732,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "Macropad_Library:SW_Cherry_MX_1.00u_PCB"
 			(at 99.06 97.155 0)
 			(effects
 				(font
@@ -4222,7 +4222,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "Macropad_Library:SW_Cherry_MX_1.00u_PCB"
 			(at 110.49 71.755 0)
 			(effects
 				(font
@@ -4356,7 +4356,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+		(property "Footprint" "Macropad_Library:SSD1306"
 			(at 235.458 82.55 0)
 			(effects
 				(font
@@ -4697,7 +4697,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "Macropad_Library:SW_Cherry_MX_1.00u_PCB"
 			(at 110.49 47.625 0)
 			(effects
 				(font
@@ -4832,7 +4832,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH-12mm"
+		(property "Footprint" "Macropad_Library:SW_PUSH-12mm"
 			(at 149.86 36.83 0)
 			(effects
 				(font
@@ -5170,7 +5170,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "Macropad_Library:SW_Cherry_MX_1.00u_PCB"
 			(at 104.14 145.415 0)
 			(effects
 				(font
@@ -5372,7 +5372,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "Macropad_Library:SW_Cherry_MX_1.00u_PCB"
 			(at 99.06 108.585 0)
 			(effects
 				(font
