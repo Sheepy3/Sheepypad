@@ -3,18 +3,18 @@
     "GenerationSoftware": {
       "Vendor": "KiCad",
       "Application": "Pcbnew",
-      "Version": "8.0.0"
+      "Version": "8.0.3"
     },
-    "CreationDate": "2024-04-03T12:08:00-04:00"
+    "CreationDate": "2024-07-07T11:27:56-04:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
       "Name": "macropad",
       "GUID": "6d616372-6f70-4616-942e-6b696361645f",
-      "Revision": "rev?"
+      "Revision": "1.0"
     },
     "Size": {
-      "X": 109.51,
+      "X": 102.05,
       "Y": 92.05
     },
     "LayerNumber": 2,
