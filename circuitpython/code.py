@@ -68,18 +68,23 @@ specialkeys = { #Dictionary of special keys. DO NOT EDIT
     ']': Keycode.RIGHT_BRACKET,
     '+': Keycode.EQUALS,
     '-': Keycode.MINUS,
+    ';': Keycode.SEMICOLON,
+    ',': Keycode.COMMA,
+    '.': Keycode.PERIOD,
+    '/': Keycode.FORWARD_SLASH,
+    'Δ': Keycode.ENTER,
 }
-
+# add a ß to denote that key must be held
+# add a Σ to denote macro- keys will be pressed in sequence rather than all at once
+# add a ξ to denote alternate key (TO DO)
 modes = [ #Mode Declaration
- ["Rebelle","Ωz","ΩΦz","Ωs","Φß","e","b","a","a","a","a","a","a","a","a","a","a","a","[","]","+","-"],
+#             1    2   3    4   5   6   7   8  9 r1 r2  5u   5l   5d   5r   5c  ms  r1l  r1r r2l r2r
+ ["DCS",     "Δ", "-", "+","", "1","6","7","","","","", "ß;", "ß,", "ß.", "ß/", "", "", "",  "", "", ""],
+ ["Rebelle","Ωz","ΩΦz","Ωs","Φß","e","b","λß","xß","yß","a","a","a","a","a","a","a","a","[","]","+","-"],
  ["Blender","b"],
  ["Clip Studio","b"],
- ["HellDivers 2","Σ↑↓→↑","Σ↓↓↑→","Σ→→↓←→↓","Σ↓←↓↑→","a","a"], #↑↓←→
- ["Yapping","b"],
- ["LilCherry","b"],
- ["Numpad", "a"],
- ]
-
+ ["HellDivers 2","Σ↑↓→↑","Σ↓↓↑→","Σ→→↓←→↓","Σ↓←↓↑→","a","a"] #↑↓←→
+]
 
     ######################
     #INITIALIZATION STUFF#
@@ -216,9 +221,9 @@ while True:
             button_states[button_name] = button_state# Update the button state in the dictionary
             if not button_state: # Check if the button is pressed (state is False)
                 if button_name == "modeswitch":
-                    if time_since_last_input < 15:
+                    if time_since_last_input < 25:
                         modeval += 1
-                        if modeval > 5:
+                        if modeval > len(modes)-1:
                             modeval = 0
                         mode = modes[modeval][0]
                         print(mode)
